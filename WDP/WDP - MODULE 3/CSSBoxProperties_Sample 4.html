@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "eng">
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "width-device-width, initial-scale=1.0">
+		<meta name = "keywords" content = "HTML5, HTML 5, Semantics">
+		
+		<title>CSS Boxed Model</title>
+		
+		<style>
+			.box {
+				width: 200px;
+				height: 100px;
+				padding: 20px;
+				border: 2px solid black;
+				margin: 10px;
+			}
+
+            .box2 {
+				width: 250px;
+				height: 150px;
+				padding: 20px;
+				border: 2px solid rgb(255, 128, 0);
+				margin: 10px;
+			}
+
+            .square {
+				width: 250px;
+				height: 150px;
+				background-color: #800080;
+				color: #ffffff;
+				padding: 20px;
+				border: 2px solid #3e0462;
+				margin: 10px auto;
+				text-align: center;
+				box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+			}
+			
+			.square:hover {
+				background-color: #9a51ed;
+				border-color: #490593;
+			}
+		</style>
+	</head>
+	<body>
+		<header class = "box"> 
+			This is the header content.
+		</header>
+
+        <p class = "box2">
+            This is another box.
+        </p>
+
+        <h2>CSS Box Model Example</h2>
+		
+		<div class = "square">
+			<p>Hover over me !</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,57 @@
+/* Page Styling */
+body {
+    font-family: Arial;
+    background-color: lightpink;
+    margin: 20px;
+}
+
+/* Text Styling */
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+p {
+    font-size: 22px;  
+    color: darkblue; 
+}
+
+/* Image Styling */
+img {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 300px;
+}
+
+/* Video Styling */
+video {
+    border: 3px solid gray;
+    border-radius: 10px;
+}
+
+/* Form Styling */
+form {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px solid #ccc;
+    width: 300px;
+    border-radius: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
